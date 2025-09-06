@@ -13,8 +13,8 @@ function toggle() {
 <template>
   <nav class="bg-gray-800 dark:bg-gray-900 text-white px-6 py-3 flex justify-between items-center shadow">
     <div class="flex items-center gap-2">
-      <img src="/images/logo-pindad.png" alt="Logo" class="h-8" />
-      <span class="font-bold text-lg">Inventori Pindad</span>
+      <!-- <img src="/images/logo.png" alt="Logo" class="h-8" /> -->
+      <span class="font-bold text-lg">Inventori Gudang</span>
     </div>
 
     <div class="flex items-center gap-6">
