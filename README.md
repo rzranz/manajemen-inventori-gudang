@@ -90,35 +90,31 @@ manajemen-inventori-gudang/
 ## 💻 Instalasi
 
 ### 1. Clone repository
-
-git clone https://github.com/rzranz/manajemen-inventori-gudang.git
-cd manajemen-inventori-gudang
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-### 1. Clone repository
-git clone https://github.com/rzranz/manajemen-inventori-gudang.git
-cd manajemen-inventori-gudang
+    git clone https://github.com/rzranz/manajemen-inventori-gudang.git
+    cd manajemen-inventori-gudang
 
 ### 2. Install dependencies Laravel (backend)
-composer install
+    composer install
 
 ### 3. Install dependencies frontend (Vue 3 + TailwindCSS)
-npm install
-npm run dev
+    npm install
+    npm run dev
 
 ### 4. Konfigurasi environment
-cp .env.example .env   # Linux/Mac
-copy .env.example .env # Windows CMD
+    cp .env.example .env   # Linux/Mac
+    copy .env.example .env # Windows CMD
 
-php artisan key:generate
+    php artisan key:generate
 
 ### 5. Migrasi database
-php artisan migrate
-php artisan db:seed
+    php artisan migrate
+    php artisan db:seed
 
 ### 6. Jalankan project
-npm run dev
-php artisan serve
+    npm run dev
+    php artisan serve
+
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
 ## License
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
