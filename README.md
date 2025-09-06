@@ -21,38 +21,60 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+# Manajemen Inventori Gudang
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+![GitHub repo size](https://img.shields.io/github/repo-size/rzranz/manajemen-inventori-gudang)
+![GitHub last commit](https://img.shields.io/github/last-commit/rzranz/manajemen-inventori-gudang)
+![GitHub license](https://img.shields.io/github/license/rzranz/manajemen-inventori-gudang)
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+Sistem **Manajemen Inventori Gudang** menggunakan **Laravel** (backend) dan **Vue 3 + Tailwind CSS** (frontend).  
+Aplikasi ini membantu mengelola produk, stok, dan transaksi secara efisien.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+---
 
-## Laravel Sponsors
+## 📌 Daftar Isi
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+- [Fitur](#-fitur)
+- [Screenshot](#-screenshot)
+- [Struktur Project](#-struktur-project)
+- [Instalasi](#-instalasi)
+- [Catatan](#-catatan)
+- [Lisensi](#-lisensi)
 
-### Premium Partners
+---
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+## ✨ Fitur
 
-## Contributing
+- **Manajemen Produk**
+  - Tambah, lihat, update produk
+  - Hapus produk hanya oleh admin melalui **Filament Admin**
+- **Manajemen Transaksi**
+  - Melacak transaksi masuk/keluar
+- **Kategori Produk**
+  - Produk dikelompokkan berdasarkan kategori
+- **Dashboard Interaktif**
+  - Total produk, total stok, total transaksi
+  - Chart stok produk & tren transaksi
+  - Daftar produk stok rendah
+- **Responsif & Modern**
+  - Mobile dan desktop friendly (Tailwind CSS)
+- **Dark/Light Mode (opsional)**
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+---
 
-## Code of Conduct
+## 🗂 Struktur Project
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
+manajemen-inventori-gudang/
+├── app/ # Backend Laravel
+├── database/ # Migrations & seeders
+├── public/ # Aset publik
+├── resources/js/ # Frontend Vue 3
+│ ├── components/
+│ ├── layouts/
+│ └── router/
+├── routes/
+├── tailwind.config.js
+└── README.md
 
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
